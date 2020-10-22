@@ -17,6 +17,7 @@ setup(
             "t6 = t6__variadic_arguments:cli",
             "t7 = t7__boolean_flags:cli",
             "t8 = t8__different_name:cli",
+            "t9 = t9__style_echo:cli",
         ]
     },
 )
