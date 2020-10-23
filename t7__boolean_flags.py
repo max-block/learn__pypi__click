@@ -3,5 +3,6 @@ import click
 
 @click.command()
 @click.option("--shout/--no-shout", default=False)
-def cli(shout):
-    click.echo(f"shout flag value: {shout}")
+@click.option("--flag", is_flag=True)
+def cli(shout: bool, flag: bool):
+    click.echo(f"shout: {shout}, flag: {flag}")
