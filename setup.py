@@ -19,6 +19,7 @@ setup(
             "t8 = t8__different_name:cli",
             "t9 = t9__style_echo:cli",
             "t10 = t10__password_prompt:cli",
+            "t11 = t11__password_option:cli",
         ]
     },
 )
