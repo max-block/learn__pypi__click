@@ -22,6 +22,7 @@ setup(
             "t11 = t11__password_option:cli",
             "t12 = t12__multiple_option:cli",
             "t13 = t13__version:cli",
+            "t14 = t14__help:cli",
         ]
     },
 )

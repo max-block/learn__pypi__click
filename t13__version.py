@@ -1,7 +1,7 @@
 import click
 
 
-@click.version_option("v0.1.2")
+@click.version_option("v0.1.2", help="Show the version and exit")
 @click.command()
 def cli():
     click.echo("I do nothing")
